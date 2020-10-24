@@ -1,0 +1,157 @@
+/*Header*/
+body {
+	background-image: url(media/image/home.jpg);
+	background-repeat: no-repeat;
+	height: 99%;
+	width: 99%;
+	background-size: cover;
+}
+
+#header {
+	font-size:20px;
+	border:0px solid white;
+	background-color:white;
+	padding: 30px;
+	color:white;
+	border-radius: 20px;
+}
+.titleText {
+	margin-left: 15%;
+	border-left: 3px solid #E17135;
+	border-right: 3px solid #E17135;
+	padding: 30px;
+	width: 30%;
+	color:#E17135;
+	text-decoration: none;
+}
+
+.titleText:hover {
+	background-color: #E17135;
+	transition: 0.5s;
+	color: white;
+	/*box-shadow: 0px 0px 5px 0px #E17135;*/
+}
+.titleText:not(hover) {
+	transition: 0.5s;
+}
+
+/*Home*/
+#new {
+	margin-top: 1%;
+	border: 30px solid white;
+	border-radius: 25px;
+	height: 600px;
+	margin-left: 3%;
+}
+
+.news {
+	margin-top: 1%;
+	border: 30px solid white;
+	border-radius: 25px;
+	height: 600px;
+	margin-left:3%;
+}
+
+.video {
+	margin-top: 1%;
+	border: 30px solid white;
+	border-radius: 25px;
+	margin-left: 3%;
+	height: 600px;
+	width: 800px;
+}
+/*Information*/
+
+#wiki {
+	margin:1%;
+	padding: 25px;
+	border: 30px solid white;
+	border-radius: 25px;
+	background-color: white;
+}
+
+#text {
+	margin-right: 25%; 
+}
+.title {
+	font-weight: bold;
+}
+
+#InfoCard {
+	border: 2px solid black;
+	border-radius: 10px;
+	float: right;
+	padding: 5px;
+}
+
+.CardingTitle {
+	border: 0px solid white;
+	background-color: #FFD1D9;
+}
+
+/*Catalog*/
+
+
+.mouse {
+	border: 0px solid white;
+	background-color: white;
+	padding: 20px;
+	margin: 30px;
+	width:420px;
+	height: 370px;
+	border-radius: 20px;
+	display: inline-block;
+}
+
+.productImage {
+	height: 250px;
+	border-radius: 20px;
+}
+
+.productText {
+	font-weight: bold;
+	font-size: 25px;
+	color: #3E3E3E;
+	background-color: #FFD1D9;
+	border-radius: 10px;
+}
+
+.productButton {
+	padding: 10px;
+	width: 420px;
+	background-color: #FFD1D9;
+	font-weight: bold;
+	font-size: 18px;
+	border-radius: 20px;
+}
+.productButton:hover {
+	background-color: white;
+	transition: 0.5s;
+}
+.productButton:not(hover) {
+	transition: 0.5s;
+}
+
+#catalog {
+	text-align: center;
+}
+
+/*Basket*/
+#car {
+	border: 0px solid white;
+	background-color: white;
+	margin-top: 1%;
+	padding: 20px;
+	border-radius: 20px;
+
+}
+
+.titleCar {
+	font-weight: bold;
+}
+
+.ProductForCar {
+	border: 1px solid black;
+	border-radius: 20px;
+	margin-bottom: 50px;
+}
